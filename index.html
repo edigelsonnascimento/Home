@@ -39,6 +39,13 @@ html {
  h1 {
    color: white;
    text-align: center;
+   font-size: 50px;
+   font-family: 'Montserrat', sans-serif;
+ }
+ 
+ h1 {
+   color: white;
+   text-align: center;
    font-size: 30px;
    font-family: 'Montserrat', sans-serif;
  }
@@ -48,7 +55,7 @@ h2, h3 {
    text-align: center;
    position: relative;
    top: 29px;
-   font-size: 14px;
+   font-size: 25px;
    font-family: 'Montserrat', sans-serif;
  }
  
@@ -56,7 +63,7 @@ h4 {
    color: white;
    text-align: center;
    position: relative;
-   font-size: 12px;
+   font-size: 20px;
    font-family: 'Montserrat', sans-serif;
  }
  
@@ -68,7 +75,7 @@ h4 {
  }
  
 .botao {
-  width: 330px;
+  width: 380px;
   height: 60px;
   margin: 0 auto;
   display: flex;
@@ -85,8 +92,36 @@ h4 {
    justify-content: center;
  }
  
- @media screen and (max-width: 400px) { 
-    max-width: 400px;
+ @media screen and (max-width: 480px) {
+   .botao {
+      width: 350px;
+      height: 60px;
+      margin: 0 auto;
+      display: flex;
+      border: none;
+      border-radius: 3px;
+      font-family: 'Montserrat', sans-serif; 
+      font-size: 30px; 
+      text-align: center;
+      justify-content: center;
+    }
+ 
+    h2, h3 {
+      color: white;
+      text-align: center;
+      position: relative;
+      top: 29px;
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+    }
+ 
+    h4 {
+      color: white;
+      text-align: center;
+      position: relative;
+      font-size: 12px;
+      font-family: 'Montserrat', sans-serif;
+  }
  }
  
 </style>

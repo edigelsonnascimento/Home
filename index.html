@@ -12,15 +12,30 @@
  <link rel="manifest" href="./site.webmanifest">
    <title>Edigelson Nascimento - DEV</title> 
   </head>
- <header> 
+  
+ <header>
+   
  <style>
+ 
  * {
    margin: 0;
    padding: 0;
  }
+ 
+html {
+   position: relative;
+   width: 100%;
+   height: 100%;
+ }
+
+ a {
+   text-decoration: none;
+ }
+ 
  body {
    background: black;
  }
+ 
  h1 {
    color: white;
    text-align: center;
@@ -52,12 +67,6 @@ h4 {
    position: absolute;
  }
  
- html {
-   position: relative;
-   width: 100%;
-   height: 100%;
- }
- 
 .botao {
   width: 330px;
   height: 60px;
@@ -70,9 +79,10 @@ h4 {
   text-align: center;
   justify-content: center;
  }
- 
- a {
-   text-decoration: none;
+ .movebotao {
+   margin: 50px;
+   display: flex;
+   justify-content: center;
  }
  
  @media screen and (max-width: 400px) { 
@@ -83,20 +93,15 @@ h4 {
    <div id="logo"> 
    <center><img src="./logo.png" alt="Edigelson Nascimento" width="200px" height="200px"/></center>
    <h1>Edigelson Nascimento</h1><br>
-   <h2>💻 • Desenvolvedor Web { Front-End, Java, Github } </h2>
-   <br>
-   <br>
-   <br>
+   <h2>💻 • Desenvolvedor Web { Front-End, Java, Github }</h2>
   </div>
-  
   </header>
   
 <body>
   
-  <section>
+  <section class="movebotao">
     <ul>
     <li><a href="https://portfolio.edigelsonnascimento.com.br"><input type="button" class="botao" value="{😎} Portfólio"></input></a></li>
-    
      </ul>
  </section>
     

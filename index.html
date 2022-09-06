@@ -25,7 +25,7 @@
  
  body {
    background: black;
-   padding-top: 70px;
+   padding-top: 40px;
  }
  
  a {
@@ -55,11 +55,7 @@ h4 {
    font-size: 20px;
    font-family: 'Montserrat', sans-serif;
  }
- 
- .creditos {
-   position: relative;
-   margin-top: 100px;
- }
+
 #logo img {
    border-radius: 100px 100px 100px 100px;
  }
@@ -76,12 +72,19 @@ h4 {
   text-align: center;
   justify-content: center;
  }
+ 
  .movebotao {
    margin: 50px;
    display: flex;
    justify-content: center;
+   flex-grow: 1;
  }
- 
+ .conteiner {
+   display:flex;
+   flex-direction: column;
+   min-height: 82vh;
+ }
+  
  @media screen and (max-width: 480px) {
 
    .botao {
@@ -97,11 +100,9 @@ h4 {
       text-align: center;
       justify-content: center;
     }
- 
- .creditos {
-   position: relative;
- }
- 
+   .conteiner {
+     min-height: 58vh;
+    }
     h2 {
       color: white;
       text-align: center;
@@ -131,13 +132,14 @@ h4 {
   </header>
   
 <body>
-  
+  <div class="conteiner">
   <section class="movebotao">
     <ul>
     <li><a href="https://portfolio.edigelsonnascimento.com.br"><input type="button" class="botao" value="{ Portfólio }"></input></a></li>
      </ul>
      
  </section>
+ </div>
   <footer class="creditos"><!-- Créditos -->
 <center><img src="./logo.png" alt="Edigelson Nascimento" width="30px" height="30px"/></center>
   <h4>Copyrights © 2022 by Edigelson Nascimento.</h4>
